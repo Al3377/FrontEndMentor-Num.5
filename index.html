@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex-container">
+      <div class="result-card">
+        <p class="result-card__title">Your Result</p>
+        <div class="result-card__result">
+          <span class="result-card__result--lg">76</span>
+          <span class="result-card__result--sm"
+            >You scored higher than 65% of the people who have taken these
+            tests.</span
+          >
+        </div>
+      </div>
+      <div class="summary-card">
+        <p>Summary</p>
+        <div class="summary-card__score">
+          <div class="summary-card__score--re">
+            <i
+              ><img src="assets/images/icon-reaction.svg" alt="icon-lightning"
+            /></i>
+            <p>Reaction</p>
+            <span class="score">80</span><span class="of-hundred">/ 100</span>
+          </div>
+          <div class="summary-card__score--me">
+            <i><img src="assets/images/icon-memory.svg" alt="icon-brain" /></i>
+            <p>Memory</p>
+            <span class="score">92</span> <span class="of-hundred">/ 100</span>
+          </div>
+          <div class="summary-card__score--ve">
+            <i><img src="assets/images/icon-verbal.svg" alt="icon-verbal" /></i>
+            <p>Verbal</p>
+            <span class="score">61</span><span class="of-hundred"> / 100</span>
+          </div>
+          <div class="summary-card__score--vi">
+            <i><img src="assets/images/icon-visual.svg" alt="icon-eye" /></i>
+            <p>Visual</p>
+            <span class="score">72</span><span class="of-hundred"> / 100</span>
+          </div>
+        </div>
+        <button class="summary-card__btn">Continue</button>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
+</html>
