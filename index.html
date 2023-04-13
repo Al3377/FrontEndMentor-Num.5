@@ -27,45 +27,78 @@
     </style>
   </head>
   <body>
-    <div class="flex-container">
-      <div class="result-card">
-        <p class="result-card__title">Your Result</p>
-        <div class="result-card__result">
-          <span class="result-card__result--lg">76</span>
-          <span class="result-card__result--sm"
-            >You scored higher than 65% of the people who have taken these
-            tests.</span
-          >
-        </div>
+    <div class="blue-card">
+      <p class="blue-card__title">Your result</p>
+      <div class="blue-card__result">
+        <p>
+          <span class="result--big">76</span>
+          <span class="of-hundred">of 100</span>
+        </p>
       </div>
-      <div class="summary-card">
-        <p>Summary</p>
-        <div class="summary-card__score">
-          <div class="summary-card__score--re">
+      <div class="blue-card__text">
+        <p class="blue-card__text--big">Great</p>
+        <p class="blue-card__text--small">
+          Your scored higher then 65% of the people who have taken these tests.
+        </p>
+      </div>
+    </div>
+
+    <div class="summary">
+      <p class="summary__title">Summary</p>
+      <div class="summary__results-container">
+        <div class="summary__results-tab summary__results-reaction">
+          <div class="summary__icon-text">
             <i
-              ><img src="assets/images/icon-reaction.svg" alt="icon-lightning"
+              ><img src="assets/images/icon-reaction.svg" alt="lightning-icon"
             /></i>
             <p>Reaction</p>
-            <span class="score">80</span><span class="of-hundred">/ 100</span>
           </div>
-          <div class="summary-card__score--me">
-            <i><img src="assets/images/icon-memory.svg" alt="icon-brain" /></i>
-            <p>Memory</p>
-            <span class="score">92</span> <span class="of-hundred">/ 100</span>
-          </div>
-          <div class="summary-card__score--ve">
-            <i><img src="assets/images/icon-verbal.svg" alt="icon-verbal" /></i>
-            <p>Verbal</p>
-            <span class="score">61</span><span class="of-hundred"> / 100</span>
-          </div>
-          <div class="summary-card__score--vi">
-            <i><img src="assets/images/icon-visual.svg" alt="icon-eye" /></i>
-            <p>Visual</p>
-            <span class="score">72</span><span class="of-hundred"> / 100</span>
+          <div class="summary__score">
+            <p>
+              <span class="score">80 </span>
+              <span class="of-hundred">/ 100 </span>
+            </p>
           </div>
         </div>
-        <button class="summary-card__btn">Continue</button>
+
+        <div class="summary__results-tab summary__results-memory">
+          <div class="summary__icon-text">
+            <i><img src="assets/images/icon-memory.svg" alt="brain-icon" /></i>
+            <p>Memory</p>
+          </div>
+          <div class="summary__score">
+            <p>
+              <span class="score">92 </span>
+              <span class="of-hundred">/ 100 </span>
+            </p>
+          </div>
+        </div>
+        <div class="summary__results-tab summary__results-verbal">
+          <div class="summary__icon-text">
+            <i><img src="assets/images/icon-verbal.svg" alt="verbal-icon" /></i>
+            <p>Verbal</p>
+          </div>
+          <div class="summary__score">
+            <p>
+              <span class="score">61 </span>
+              <span class="of-hundred">/ 100 </span>
+            </p>
+          </div>
+        </div>
+        <div class="summary__results-tab summary__results-visual">
+          <div class="summary__icon-text">
+            <i><img src="assets/images/icon-visual.svg" alt="eye-icon" /></i>
+            <p>Visual</p>
+          </div>
+          <div class="summary__score">
+            <p>
+              <span class="score">72 </span>
+              <span class="of-hundred">/ 100 </span>
+            </p>
+          </div>
+        </div>
       </div>
+      <div class="btn-container"><button class="btn">Continue</button></div>
     </div>
 
     <div class="attribution">
