@@ -224,6 +224,9 @@ i {
   color: var(--pale-blue);
   background-color: var(--dark-gray-blue);
 }
+.btn:hover {
+  background: linear-gradient(var(--light-slate-blue), var(--light-royal-blue));
+}
 
 @media (min-width: 768px) {
   .flex-container {
